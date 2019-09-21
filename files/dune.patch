@@ -1,0 +1,18 @@
+--- ../lib/dune	2019-07-12 16:32:10.419331885 +0530
++++ ../lib/dune_new	2019-07-12 16:42:46.464878524 +0530
+@@ -3,12 +3,7 @@
+  (public_name cstruct)
+  (libraries bigarray-compat)
+  (c_names cstruct_stubs)
++ (no_dynlink)
+  (wrapped false)
+  (js_of_ocaml (javascript_files cstruct.js))
+- (modules cstruct cstruct_cap))
+-
+-(library
+- (name cstruct_sexp)
+- (public_name cstruct-sexp)
+- (modules cstruct_sexp)
+- (libraries cstruct sexplib))
++ (modules cstruct cstruct_cap))
+\ No newline at end of file

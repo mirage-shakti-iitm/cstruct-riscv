@@ -12,13 +12,14 @@ doc: "https://mirage.github.io/ocaml-cstruct/"
 tags: [ "org:mirage" "org:ocamllabs" ]
 build: [
   ["dune" "subst"] {pinned}
-  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "build" "-x" "riscv" "-p" "cstruct-lwt" "-j" jobs]
 ]
 depends: [
   "ocaml" {>= "4.03.0"}
-  "base-unix"
-  "lwt"
-  "cstruct" {=version}
+  "ocaml-riscv"
+  (* "base-unix" *)
+  "lwt-riscv"
+  "cstruct-riscv" {=version}
   "dune" {build & >= "1.0"}
 ]
 synopsis: "Access C-like structures directly from OCaml"

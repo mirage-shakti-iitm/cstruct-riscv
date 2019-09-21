@@ -12,7 +12,7 @@ doc: "https://mirage.github.io/ocaml-cstruct/"
 tags: [ "org:mirage" "org:ocamllabs" ]
 
 extra-files: [
-  ["dune.patch" "md5=dbd7b5a95f9a5cc81cf63ad74e8ddd71"]
+  ["dune.patch" "md5=130763e61430051b05e395381e5f776f"]
   ["lwt_cstruct_mli.patch" "md5=6324f7266736d96e85d5a6d639b6dae1"]
   ["lwt_cstruct_ml.patch" "md5=bc1ceab9a2104d14e71546e05d14605c"]
 ]

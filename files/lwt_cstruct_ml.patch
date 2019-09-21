@@ -1,0 +1,29 @@
+diff --git a/lwt/lwt_cstruct.ml b/lwt/lwt_cstruct.ml
+index fb34ab5..c67939d 100644
+--- a/lwt/lwt_cstruct.ml
++++ b/lwt/lwt_cstruct.ml
+@@ -14,11 +14,11 @@
+  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  *)
+ 
+-let read fd t =
++(* let read fd t =
+   Lwt_bytes.read fd t.Cstruct.buffer t.Cstruct.off t.Cstruct.len
+ 
+ let write fd t =
+-  Lwt_bytes.write fd t.Cstruct.buffer t.Cstruct.off t.Cstruct.len
++  Lwt_bytes.write fd t.Cstruct.buffer t.Cstruct.off t.Cstruct.len *)
+ 
+ let complete op t =
+   let open Lwt in
+@@ -32,8 +32,8 @@ let complete op t =
+     else loop t in
+   loop t
+ 
+-let sendto fd t flags dst =
++(* let sendto fd t flags dst =
+   Lwt_bytes.sendto fd t.Cstruct.buffer t.Cstruct.off t.Cstruct.len flags dst
+ 
+ let recvfrom fd t flags =
+-  Lwt_bytes.recvfrom fd t.Cstruct.buffer t.Cstruct.off t.Cstruct.len flags
++  Lwt_bytes.recvfrom fd t.Cstruct.buffer t.Cstruct.off t.Cstruct.len flags *)

@@ -5,7 +5,7 @@
  (c_names cstruct_stubs)
  (wrapped false)
  (js_of_ocaml (javascript_files cstruct.js))
- (modules cstruct cstruct_cap)
+ (modules cstruct cstruct_cap cstruct_cap_tee cstruct_cap_cap_tee)
  (ocamlopt_flags (-S)))
 
 (library

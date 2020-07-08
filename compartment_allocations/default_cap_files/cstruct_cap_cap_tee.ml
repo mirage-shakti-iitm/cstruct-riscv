@@ -1,0 +1,17 @@
+camlCstruct_cap__fun:254
+camlCstruct_cap__fun:254
+camlCstruct_cap__of_string:254
+camlCstruct_cap__of_bytes:254
+camlCstruct_cap__to_string_inner:254
+camlCstruct_cap__to_string:254
+camlCstruct_cap__to_bytes_inner:254
+camlCstruct_cap__to_bytes:254
+camlCstruct_cap__pp:254
+camlCstruct_cap__blit:254
+camlCstruct_cap__blit_from_string:254
+camlCstruct_cap__blit_from_bytes:254
+camlCstruct_cap__blit_to_bytes:254
+camlCstruct_cap__sub:254
+camlCstruct_cap__concat:254
+camlCstruct_cap__go:254
+camlCstruct_cap_:254

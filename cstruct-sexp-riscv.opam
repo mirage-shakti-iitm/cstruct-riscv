@@ -19,7 +19,7 @@ build: [
 depends: [
   "ocaml-riscv" {>= "4.03.0"}
   "dune" {build & >= "1.0"}
-  "sexplib-riscv" {< "v0.13"}
+  "sexplib-riscv" {< "v0.15"}
   "cstruct-riscv" {>= "3.6.0"}
   "alcotest" {with-test}
 ]

@@ -13,4 +13,4 @@
  (public_name cstruct-sexp)
  (modules cstruct_sexp)
  (libraries cstruct sexplib)
- (ocamlopt_flags (-default-compartment-id 7 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 8 -function-sections)))

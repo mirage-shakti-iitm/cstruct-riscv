@@ -8,4 +8,4 @@
   (pps ppx_tools_versioned.metaquot_404))
  (libraries sexplib ocaml-migrate-parsetree ppx_tools_versioned
    ppx_tools_versioned.metaquot_404 bigarray)
- (ocamlopt_flags (-default-compartment-id 8 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 255 -function-sections)))

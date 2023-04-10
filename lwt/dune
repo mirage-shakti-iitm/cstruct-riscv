@@ -3,4 +3,4 @@
  (wrapped false)
  (public_name cstruct-lwt)
  (libraries cstruct lwt.unix)
- (ocamlopt_flags (-default-compartment-id 255 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 250 -function-sections)))

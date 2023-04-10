@@ -6,11 +6,11 @@
  (wrapped false)
  (js_of_ocaml (javascript_files cstruct.js))
  (modules cstruct)
- (ocamlopt_flags (-default-compartment-id 255 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 250 -function-sections)))
 
 (library
  (name cstruct_sexp)
  (public_name cstruct-sexp)
  (modules cstruct_sexp)
  (libraries cstruct sexplib)
- (ocamlopt_flags (-default-compartment-id 255 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 250 -function-sections)))
